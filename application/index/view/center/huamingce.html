@@ -7,11 +7,15 @@
 <body>
     <ul>
         <li>
-            1、<a href="#">下载导入模板</a>
+            1、<a href="/public/emp_import.xlsx">下载导入模板</a>
         </li>
-        <li>
-            2、<a href="#">导入excel</a>
-        </li>
+
+        <form action="{:url('index/center/importHuamingce')}" method="post" enctype="multipart/form-data">
+            <li>
+                2、<input type="file" name='huamingce'>
+                <input type="submit" value="导入excel">
+            </li>
+        </form>
     </ul>
 </body>
 </html>

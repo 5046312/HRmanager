@@ -10,8 +10,20 @@ class Center extends Base
         return view();
     }
 
+    /**
+     * 花名册界面
+     */
     public function huamingce(){
         return view();
+    }
+
+    /**
+	 * 导入花名册
+     */
+    public function importHuamingce(){
+    	$excel = new \PHPExcel();
+    	dump($excel);
+    	dump(input('file.huamingce'));
     }
 
 
