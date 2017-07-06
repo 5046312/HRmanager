@@ -10,7 +10,7 @@ class Base extends Controller
     {
         parent::__construct($request);
         if (!Session::get('User')){
-            $this->redirect(url('index/index/login'));
+            return $this->redirect('index/index/login');
         }
     }
 }

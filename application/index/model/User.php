@@ -1,12 +1,19 @@
 <?php
+namespace app\index\model;
+use think\Model;
 
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2017/7/6 0006
- * Time: 下午 15:26
- */
-class User
+class User extends Model
 {
-
+    /**
+     * 根据Uname查找用户
+     * return array
+     */
+    public function findOneByUname($uname){
+        $res = $this->where('uname', $uname)->find();
+        if($res){
+            return $res->toArray();
+        }else{
+            return false;
+        }
+    }
 }
