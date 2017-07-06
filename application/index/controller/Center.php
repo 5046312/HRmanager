@@ -2,7 +2,17 @@
 namespace app\index\controller;
 class Center extends Base
 {
+    /**
+     * 个人中心首页
+     * @return \think\response\View
+     */
     public function index(){
-        echo 'welcome0';
+        return view();
     }
+
+    public function huamingce(){
+        return view();
+    }
+
+
 }

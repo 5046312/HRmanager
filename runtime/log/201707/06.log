@@ -3382,3 +3382,258 @@
 [ info ] [ VIEW ] E:\phpStudy\WWW\hr/application/index\view\index\index.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T16:17:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index/center/index.html
+[ info ] hr.com/index/center/index.html [运行时间：0.018356s][吞吐率：54.48req/s] [内存消耗：1,434.99kb] [文件加载：50]
+[ info ] [ LANG ] E:\phpStudy\WWW\hr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=3997495296; pgv_si=s9013380096; PHPSESSID=eh3d2351fu7qopnc8t6ofavh70; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hr.com/index/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hr.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T16:17:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/login.html
+[ info ] hr.com/index/index/login.html [运行时间：0.017532s][吞吐率：57.04req/s] [内存消耗：1,482.34kb] [文件加载：52]
+[ info ] [ LANG ] E:\phpStudy\WWW\hr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; pgv_pvi=3997495296; pgv_si=s9013380096; PHPSESSID=eh3d2351fu7qopnc8t6ofavh70; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hr.com/index/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hr.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ E:\phpStudy\WWW\hr\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\hr/application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T16:19:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/login.html
+[ info ] hr.com/index/index/login.html [运行时间：0.039586s][吞吐率：25.26req/s] [内存消耗：1,482.85kb] [文件加载：52]
+[ info ] [ LANG ] E:\phpStudy\WWW\hr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; pgv_pvi=3997495296; pgv_si=s9013380096; PHPSESSID=eh3d2351fu7qopnc8t6ofavh70; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hr.com/index/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'hr.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ E:\phpStudy\WWW\hr\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\hr/application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T16:19:55+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/loginact.html
+[ info ] hr.com/index/index/loginact.html [运行时间：0.401958s][吞吐率：2.49req/s] [内存消耗：2,259.85kb] [文件加载：58]
+[ info ] [ LANG ] E:\phpStudy\WWW\hr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'loginact',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; pgv_pvi=3997495296; pgv_si=s9013380096; PHPSESSID=eh3d2351fu7qopnc8t6ofavh70; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hr.com/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://hr.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '22',
+  'connection' => 'close',
+  'host' => 'hr.com',
+)
+[ info ] [ PARAM ] array (
+  'uname' => '123',
+  'upass' => '123456',
+)
+[ info ] [ RUN ] app\index\controller\Index->loginAct[ E:\phpStudy\WWW\hr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.199506s ] mysql:dbname=r9uv23iw2j;host=rm-bp1dx8c6774yz15o9.mysql.rds.aliyuncs.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hr_user` [ RunTime:0.083968s ]
+[ sql ] [ SQL ] SELECT * FROM `hr_user` WHERE  `uname` = '123' LIMIT 1 [ RunTime:0.083691s ]
+---------------------------------------------------------------
+[ 2017-07-06T16:19:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index/center/index.html
+[ info ] hr.com/index/center/index.html [运行时间：0.036235s][吞吐率：27.60req/s] [内存消耗：1,548.93kb] [文件加载：54]
+[ info ] [ LANG ] E:\phpStudy\WWW\hr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=3997495296; pgv_si=s9013380096; PHPSESSID=eh3d2351fu7qopnc8t6ofavh70; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hr.com/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'hr.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Center->index[ E:\phpStudy\WWW\hr\application\index\controller\Center.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\hr/application/index\view\center\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T16:20:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index/center/index.html
+[ info ] hr.com/index/center/index.html [运行时间：0.019236s][吞吐率：51.99req/s] [内存消耗：1,597.62kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\WWW\hr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=3997495296; pgv_si=s9013380096; PHPSESSID=eh3d2351fu7qopnc8t6ofavh70; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hr.com/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'hr.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Center->index[ E:\phpStudy\WWW\hr\application\index\controller\Center.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\hr/application/index\view\center\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T16:20:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/center/huamingce.html
+[ info ] hr.com/index/center/huamingce.html [运行时间：0.018119s][吞吐率：55.19req/s] [内存消耗：1,548.99kb] [文件加载：54]
+[ info ] [ LANG ] E:\phpStudy\WWW\hr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'center',
+    2 => 'huamingce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=3997495296; pgv_si=s9013380096; PHPSESSID=eh3d2351fu7qopnc8t6ofavh70; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hr.com/index/center/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hr.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Center->huamingce[ E:\phpStudy\WWW\hr\application\index\controller\Center.php ]
+[ info ] [ VIEW ] E:\phpStudy\WWW\hr/application/index\view\center\huamingce.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
