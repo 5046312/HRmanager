@@ -136,13 +136,6 @@ class ComposerStaticInit547f1ba8138a17d6b867624279d0c7eb
                 0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
             ),
         ),
-        'H' => 
-        array (
-            'Hautelook' => 
-            array (
-                0 => __DIR__ . '/..' . '/hautelook/phpass/src',
-            ),
-        ),
     );
 
     public static $classMap = array (

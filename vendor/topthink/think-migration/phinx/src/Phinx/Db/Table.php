@@ -322,9 +322,9 @@ class Table
      *
      * Valid options can be: limit, default, null, precision or scale.
      *
-     * @param string|Column $columnName Category Name
-     * @param string $type Category Type
-     * @param array $options Category Options
+     * @param string|Column $columnName Column Name
+     * @param string $type Column Type
+     * @param array $options Column Options
      * @throws \RuntimeException
      * @throws \InvalidArgumentException
      * @return Table
@@ -374,8 +374,8 @@ class Table
     /**
      * Rename a table column.
      *
-     * @param string $oldName Old Category Name
-     * @param string $newName New Category Name
+     * @param string $oldName Old Column Name
+     * @param string $newName New Column Name
      * @return Table
      */
     public function renameColumn($oldName, $newName)
@@ -387,8 +387,8 @@ class Table
     /**
      * Change a table column type.
      *
-     * @param string        $columnName    Category Name
-     * @param string|Column $newColumnType New Category Type
+     * @param string        $columnName    Column Name
+     * @param string|Column $newColumnType New Column Type
      * @param array         $options       Options
      * @return Table
      */

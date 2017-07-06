@@ -10,16 +10,14 @@
 // +----------------------------------------------------------------------
 
 return [
-    'web_name' => '1p1q',
-    //网站后缀名
-    'web_afterName' => '1p1q - 专注编程 共同成长',
-
     // +----------------------------------------------------------------------
     // | 应用设置
     // +----------------------------------------------------------------------
 
+    // 应用命名空间
+    'app_namespace'          => 'app',
     // 应用调试模式
-    'app_debug'              => true,
+    'app_debug'              => false,
     // 应用Trace
     'app_trace'              => false,
     // 应用模式状态
@@ -58,7 +56,7 @@ return [
     // +----------------------------------------------------------------------
 
     // 默认模块名
-    'default_module'         => 'admin',
+    'default_module'         => 'index',
     // 禁止访问模块
     'deny_module_list'       => ['common'],
     // 默认控制器名
@@ -115,10 +113,9 @@ return [
     // 是否开启请求缓存 true自动缓存 支持设置请求缓存规则
     'request_cache'          => false,
     // 请求缓存有效期
-    'request_cache_expire'   =>  600,
-    //请求缓存排除
-    'request_cache_except' => [
-    ],
+    'request_cache_expire'   => null,
+    // 全局请求缓存排除规则
+    'request_cache_except'   => [],
 
     // +----------------------------------------------------------------------
     // | 模板设置
@@ -155,19 +152,13 @@ return [
 
     // 异常页面的模板文件
     'exception_tmpl'         => THINK_PATH . 'tpl' . DS . 'think_exception.tpl',
+
     // 错误显示信息,非调试模式有效
     'error_message'          => '页面错误！请稍后再试～',
     // 显示错误信息
     'show_error_msg'         => false,
     // 异常处理handle类 留空使用 \think\exception\Handle
     'exception_handle'       => '',
-
-    'http_exception_template' => [
-        // 定义404错误的重定向页面地址
-        404 => APP_PATH.'404.html',
-        // 还可以定义其它的HTTP status
-        401 => APP_PATH.'401.html',
-    ],
 
     // +----------------------------------------------------------------------
     // | 日志设置
@@ -246,23 +237,5 @@ return [
         'type'      => 'bootstrap',
         'var_page'  => 'page',
         'list_rows' => 15,
-    ],
-
-    //captcha
-    'captcha'  => [
-        // 验证码字符集合
-        'codeSet'  => '2345678',
-        // 验证码字体大小(px)
-        'fontSize' => 25,
-        // 是否画混淆曲线
-        'useCurve' => true,
-        // 验证码图片高度
-        'imageH'   => 52,
-        // 验证码图片宽度
-        'imageW'   => 160,
-        // 验证码位数
-        'length'   => 3,
-        // 验证成功后是否重置
-        'reset'    => true
     ],
 ];

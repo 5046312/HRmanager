@@ -871,7 +871,7 @@ class MysqlAdapter extends PdoAdapter implements AdapterInterface
     public function getPhinxType($sqlTypeDef)
     {
         if (!preg_match('/^([\w]+)(\(([\d]+)*(,([\d]+))*\))*(.+)*$/', $sqlTypeDef, $matches)) {
-            throw new \RuntimeException('Category type ' . $sqlTypeDef . ' is not supported');
+            throw new \RuntimeException('Column type ' . $sqlTypeDef . ' is not supported');
         } else {
             $limit = null;
             $precision = null;
@@ -1015,9 +1015,9 @@ class MysqlAdapter extends PdoAdapter implements AdapterInterface
     }
 
     /**
-     * Gets the MySQL Category Definition for a Category object.
+     * Gets the MySQL Column Definition for a Column object.
      *
-     * @param Column $column Category
+     * @param Column $column Column
      * @return string
      */
     protected function getColumnSqlDefinition(Column $column)

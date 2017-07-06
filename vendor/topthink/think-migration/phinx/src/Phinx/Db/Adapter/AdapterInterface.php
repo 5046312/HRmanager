@@ -360,8 +360,8 @@ interface AdapterInterface
      * Renames the specified column.
      *
      * @param string $tableName Table Name
-     * @param string $columnName Category Name
-     * @param string $newColumnName New Category Name
+     * @param string $columnName Column Name
+     * @param string $newColumnName New Column Name
      * @return void
      */
     public function renameColumn($tableName, $columnName, $newColumnName);
@@ -370,8 +370,8 @@ interface AdapterInterface
      * Change a table column type.
      *
      * @param string $tableName  Table Name
-     * @param string $columnName Category Name
-     * @param Column $newColumn  New Category
+     * @param string $columnName Column Name
+     * @param Column $newColumn  New Column
      * @return Table
      */
     public function changeColumn($tableName, $columnName, Column $newColumn);

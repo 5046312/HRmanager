@@ -296,9 +296,9 @@ class SqlServerAdapter extends PdoAdapter implements AdapterInterface
     }
 
     /**
-     * Gets the SqlServer Category Comment Defininition for a column object.
+     * Gets the SqlServer Column Comment Defininition for a column object.
      *
-     * @param Column $column    Category
+     * @param Column $column    Column
      * @param string $tableName Table name
      *
      * @return string
@@ -1060,9 +1060,9 @@ SQL;
     }
 
     /**
-     * Gets the SqlServer Category Definition for a Category object.
+     * Gets the SqlServer Column Definition for a Column object.
      *
-     * @param Column $column Category
+     * @param Column $column Column
      * @return string
      */
     protected function getColumnSqlDefinition(Column $column, $create = true)

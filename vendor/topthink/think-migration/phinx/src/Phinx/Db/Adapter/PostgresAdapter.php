@@ -913,9 +913,9 @@ class PostgresAdapter extends PdoAdapter implements AdapterInterface
     }
 
     /**
-     * Gets the PostgreSQL Category Definition for a Category object.
+     * Gets the PostgreSQL Column Definition for a Column object.
      *
-     * @param Column $column Category
+     * @param Column $column Column
      * @return string
      */
     protected function getColumnSqlDefinition(Column $column)
@@ -958,9 +958,9 @@ class PostgresAdapter extends PdoAdapter implements AdapterInterface
     }
 
     /**
-     * Gets the PostgreSQL Category Comment Defininition for a column object.
+     * Gets the PostgreSQL Column Comment Defininition for a column object.
      *
-     * @param Column $column Category
+     * @param Column $column Column
      * @param string $tableName Table name
      * @return string
      */
