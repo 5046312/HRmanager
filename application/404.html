@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="dns-prefetch" href="//apps.bdimg.com">
+    <meta http-equiv="X-UA-Compatible" content="IE=11,IE=10,IE=9,IE=8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <title>404 - {:config('web_afterName')}</title>
+    <meta name='robots' content='noindex,follow' />
+    <link rel='stylesheet' href='https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='/public/css/main.css' type='text/css' media='all' />
+    <script type='text/javascript' src='https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js'></script>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!--[if lt IE 9]><script src="/public/js/libs/html5.min.js"></script><![endif]-->
+</head>
+<body class="error404 nav_fixed site-layout-2">
+{:widget('blog/header', ['cname'=> ''])}
+<section class="container">
+    <div class="f404">
+        <img src="/public/img/404.png">
+        <h1>404 . Not Found</h1>
+        <h2>沒有找到你要的内容！</h2>
+        <p>
+            <a class="btn btn-primary" href="{:url('/')}">返回 1p1q 首页</a>
+        </p>
+    </div>
+</section>
+{:widget('blog/footer')}
+</body>
+</html>
