@@ -14,3 +14,19 @@ class Base extends Controller
         }
     }
 }
+
+class BaseCompany extends Base
+{
+    /**
+     * 未选择公司则跳转到公司选择页
+     * BaseCompany constructor.
+     * @param Request|null $request
+     */
+    public function __construct(Request $request = null)
+    {
+        parent::__construct($request);
+        if(!Session::has('Company')){
+            return $this->redirect('index/company/index');
+        }
+    }
+}

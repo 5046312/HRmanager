@@ -1,6 +1,8 @@
 <?php
 namespace app\index\controller;
-class Center extends Base
+
+
+class Center extends BaseCompany
 {
     /**
      * 个人中心首页
