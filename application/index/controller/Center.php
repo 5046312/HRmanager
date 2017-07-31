@@ -1,6 +1,7 @@
 <?php
 namespace app\index\controller;
-
+use app\index\controller\BaseCompany;
+use think\Session;
 
 class Center extends BaseCompany
 {
@@ -9,6 +10,7 @@ class Center extends BaseCompany
      * @return \think\response\View
      */
     public function index(){
+        echo "current Company ".Session::get('Company');
         return view();
     }
 

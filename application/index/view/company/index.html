@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>请选择您当前所在的公司</h2>
+<form action="{:url('index/company/selectCompanyAct')}" method="post">
+    <select name="company_id">
+        {foreach $companyList as $k=>$v}
+            <option value="{$v->company_id}">{$v->company_name}</option>
+        {/foreach}
+    </select>
+    <input type="submit">
+</form>
+</body>
+</html>

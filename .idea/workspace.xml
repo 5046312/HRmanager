@@ -2,15 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdc2ff68-d6ba-478f-9b48-51f41b906a56" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/index/controller/Company.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/index/model/Company.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/index/view/company/selectCompany.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/index/controller/BaseCompany.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/index/view/company/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/log/201707/06.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/log/201707/07.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/log/201707/31.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/2f86661ec60fd5d2417ca90f587465a2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/478625b29ee86495e689a801bfff079d.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/a02d370f9109d95d829542af3bdb3a38.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/a201ca74c5786f9306d5ccf7d03b0c9f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/d00fb861abdf17794f41fc034534cfa8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/d1239927b6dc0038449d447528e6d2be.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/d1fbedc1f6bbe2306fd5d9bb44290690.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/d9989b3087857446a1d08b7662dc08eb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/dc1c954ce8855a7305fbe2313813d42f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/e65dfb696dfbfa5970da9b68004c063c.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/controller/Base.php" afterPath="$PROJECT_DIR$/application/index/controller/Base.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/controller/Center.php" afterPath="$PROJECT_DIR$/application/index/controller/Center.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/controller/Company.php" afterPath="$PROJECT_DIR$/application/index/controller/Company.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/company/addCompany.html" afterPath="$PROJECT_DIR$/application/index/view/company/addCompany.html" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,19 +41,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Company.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Company.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/index/controller/Company.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2969629">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            <state vertical-scroll-proportion="-17.37931">
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="36" />
               <folding>
                 <element signature="e#38#56#0#PHP" expanded="true" />
-                <element signature="e#136#165#0#PHP" expanded="false" />
-                <element signature="e#359#388#0#PHP" expanded="false" />
-                <element signature="e#817#842#0#PHP" expanded="false" />
-                <element signature="e#894#919#0#PHP" expanded="false" />
-                <element signature="e#981#1006#0#PHP" expanded="false" />
+                <element signature="e#167#196#0#PHP" expanded="false" />
+                <element signature="e#618#643#0#PHP" expanded="false" />
+                <element signature="e#725#750#0#PHP" expanded="false" />
+                <element signature="e#819#844#0#PHP" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/index/view/company/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.37795275">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -50,9 +70,11 @@
       <file leaf-file-name="Center.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/index/controller/Center.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.896552">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-              <folding />
+            <state vertical-scroll-proportion="-4.137931">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <folding>
+                <element signature="e#38#75#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,8 +118,11 @@
         <option value="$PROJECT_DIR$/application/index/view/center/addCompany.html" />
         <option value="$PROJECT_DIR$/application/index/controller/BaseCompany.php" />
         <option value="$PROJECT_DIR$/application/index/controller/Base.php" />
-        <option value="$PROJECT_DIR$/application/index/controller/Company.php" />
         <option value="$PROJECT_DIR$/application/index/controller/Center.php" />
+        <option value="$PROJECT_DIR$/runtime/log/201707/31.log" />
+        <option value="$PROJECT_DIR$/application/index/view/company/addCompany.html" />
+        <option value="$PROJECT_DIR$/application/index/controller/Company.php" />
+        <option value="$PROJECT_DIR$/application/index/view/company/index.html" />
       </list>
     </option>
   </component>
@@ -612,14 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/company/addCompany.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/index/view/company/selectCompany.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3239595">
@@ -630,34 +647,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/index/controller/Base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5399325">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding>
-            <element signature="e#38#59#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-2.4827585">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Center.php">
+    <entry file="file://$PROJECT_DIR$/application/index/controller/BaseCompany.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.896552">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.37795275">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/company/addCompany.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40494937">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/index/controller/Company.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2969629">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state vertical-scroll-proportion="-17.37931">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="36" />
           <folding>
             <element signature="e#38#56#0#PHP" expanded="true" />
-            <element signature="e#136#165#0#PHP" expanded="false" />
-            <element signature="e#359#388#0#PHP" expanded="false" />
-            <element signature="e#817#842#0#PHP" expanded="false" />
-            <element signature="e#894#919#0#PHP" expanded="false" />
-            <element signature="e#981#1006#0#PHP" expanded="false" />
+            <element signature="e#167#196#0#PHP" expanded="false" />
+            <element signature="e#618#643#0#PHP" expanded="false" />
+            <element signature="e#725#750#0#PHP" expanded="false" />
+            <element signature="e#819#844#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Center.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.137931">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#38#75#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/company/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37795275">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

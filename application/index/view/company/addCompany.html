@@ -2,9 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>添加公司</title>
 </head>
 <body>
-
+<h2>添加新公司</h2>
+<form action="{:url('index/company/addCompanyAct')}" method="post">
+    公司全名：<input type="text" name="company_name">
+    <br>
+    公司地址：<input type="text" name="address">
+    <br>
+    入职时间：<input type="text" name="hire_date" placeholder="时间格式为 2017-08-07">
+    <br>
+    <input type="submit">
+</form>
 </body>
 </html>
