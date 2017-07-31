@@ -13,4 +13,9 @@ class Company extends Model
         return $this->save($data);
     }
 
+    // 按条件查询单个公司
+    public function findCompany($condition = '*', $field = "*"){
+        return $this->where($condition)->field($field)->find();
+    }
+
 }

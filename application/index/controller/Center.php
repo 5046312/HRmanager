@@ -1,6 +1,6 @@
 <?php
 namespace app\index\controller;
-use app\index\controller\BaseCompany;
+use app\index\model\Company as Company_Model;
 use think\Session;
 
 class Center extends BaseCompany
@@ -10,7 +10,14 @@ class Center extends BaseCompany
      * @return \think\response\View
      */
     public function index(){
-        echo "current Company ".Session::get('Company');
+        // 查询当前默认公司,存Session
+        if(!Session::has('currentCompany')){
+            $Company_Model = new Company_Model();
+            $condition['company_id'] = Session::get('User.current_company');
+            $currentCompany = $Company_Model->findCompany($condition);
+            Session::set('currentCompany', $currentCompany->toArray());
+        }
+        echo "current Company： ".Session::get('currentCompany.company_name');
         return view();
     }
 
@@ -26,7 +33,7 @@ class Center extends BaseCompany
      */
     public function importHuamingce(){
     	$excel = new \PHPExcel();
-    	dump($excel);
+//    	dump($excel);
     	dump(input('file.huamingce'));
     }
 

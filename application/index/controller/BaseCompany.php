@@ -11,7 +11,7 @@ class BaseCompany extends Base
     public function __construct()
     {
         parent::__construct();
-        if(!Session::has('Company')){
+        if(!Session::has('User.current_company')){
             return $this->redirect('index/company/index');
         }
     }

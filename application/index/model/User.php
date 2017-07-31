@@ -16,4 +16,11 @@ class User extends Model
             return false;
         }
     }
+
+    /**
+     * 设置当前默认所在公司
+     */
+    public function setCurrentCompany($uid, $company_id){
+        return $this->where('user_id', $uid)->update(['current_company'=>$company_id]);
+    }
 }
